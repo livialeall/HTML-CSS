@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML</title>
+    <link rel="shortcut icon" href="icon texto.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Usando Videos em HTML - Hospedados localmente</h1>
+    <p>Este video esta localizado no meu próprio servidor</p>
+    <video controls width="300" height="400" poster="imagens/thumb.png">
+        <source src="midia/meuvideo2.mp4" type="video/mp4">
+<!-- Aqui eu nao consegui converter em varios tamanho mas é interessante colocar vários tamanhos, para ter compatibilidade -->
+<!-- Precisa ter atenção com os custos de hospedagens, consome muito tradego de dados. -->
+    </video>
+    <p> Temos também outro video</p>
+    <video controls width="400" height="300" loop poster="imagens/thumb.png">
+        <source src="midia/meuvideo.mp4" type="video/mp4">
+    </video>
+<h1>Inserindo videos do youtube</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

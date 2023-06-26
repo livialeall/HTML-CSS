@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            text-decoration:underline;
+            color: blue;
+        }
+
+        a:active {/* quando eu clico o link */
+            color: rgb(121, 169, 233);
+        }
+
+        .especial{
+            background-color: lightcoral;
+        }
+
+        .especial::before {
+            content: '⇒';
+            text-decoration: none;
+            font-weight: normal;
+            color: black;
+       
+        }
+
+        .especial::after {
+            content: '⇐';
+            text-decoration: none;
+            font-weight: normal;
+            color: black;
+          
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/15%20-Seletores%20personalizados.pdf">Respositório Github</a></li>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po" class="especial">Canal do youtube</a></li>
+        <li> <a href="https://www.cursoemvideo.com/cursowp/manual/" class="especial" >Site CursoemVideo</a></li>
+        <li><a href="https://www.facebook.com/CursosEmVideo/?locale=pt_BR">Curso em video no facebook</a></li>
+    </ul>
+    
+</body>
+</html>

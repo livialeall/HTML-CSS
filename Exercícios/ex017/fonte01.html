@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+        body {
+            font-family: 'work sans'; /* Declaração adaptada para cada tipo de dispositivo. Caso nao tenha uma, ele utilizará a outra. Safe combination. É possível também colocar categorias genericas de fontes */
+
+            /* Temos as medidas absolutas 
+             cm, mm, in, px, pt, pc - apresentação varia de acordo com dispositivo
+
+             Medidas relativas:
+
+             em ( relativo ao M maiusculo), ex ( relativo a altura do x minusculo), rem ( relativo a fonte que esta configurada no body), vw(varia conforme a tela do dispositivo), vh, %
+
+             Usamos px e em!
+
+            */
+
+            font-size: 0.7em /* tamanho padrao é 16px = 1em, porcentagem do tamanho padrao */;
+            font-style: normal;
+            text-decoration: underline;
+        }
+
+        h1{
+
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /* shorthand font
+            
+            font style> font-weight> font-size> font-family*/
+
+            font: italic bolder 3em 'Work Sans',sans-serif
+
+        }
+
+        h2 {
+            font:bold 2em 'Work Sans', sans-serif
+        }
+    </style>
+</head>
+<body">
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta inventore quae eligendi exercitationem temporibus veniam natus deleniti? Reiciendis natus dolores ipsum cumque sint laudantium repellendus temporibus, aut itaque vero soluta.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptate suscipit eos, voluptatem distinctio doloribus officiis sunt sapiente minima quo iusto enim? Dolorem amet ab commodi voluptatibus vero voluptatum. Omnis.</p>
+
+    <h2>Subtítulo de exercícios</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum ratione consectetur laboriosam? Voluptate enim vitae minus illo error similique nihil qui possimus fugiat animi laudantium expedita nobis, quis adipisci placeat?</p>
+
+</body>
+</html>

@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rochester&family=Signika:wght@300;400&display=swap');
+
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+
+}
+
+   
+body {
+    position: relative;
+    height: 2000px; /* paleativo */
+    background:#e5e5d5 
+
+}
+
+ .cabeçalho{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 100px;
+    background-color:;
+    
+}
+
+
+
+.cabeçalho-titulo {
+    font-size: 200px;
+    font-weight: lighter;
+    color:#06254e;
+    font-family: 'Rochester',cursive;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.44);
+   
+
+}
+
+
+
+.conteudo-informativo {
+    font-family:'Signika', sans-serif;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 175px;
+    color: #06254e;
+    display: flex;
+    gap: 50px;
+    text-align: justify;
+
+    
+   
+}
+
+.conteudo-informativo-macrame-titulo {
+    color: #E7B54D;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.484);
+    background-color: #14325a;
+}
+
+.conteudo-informativo-bella-titulo {
+    color: #E7B54D;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.484);
+    background-color: #14325a;
+}
+
+.galeria{
+   display: flex;
+   justify-content: space-around;
+   margin-right: 350px;
+   margin-left: 350px;
+    
+}
+
+
+.galeria-acessorios {
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    border: 25px solid #e7b64dc4;
+    box-shadow: 5px 10px 10px #14325a54;
+    
+}
+.galeria-acessorios-texto {
+    font-size: 45px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galeria-acessorios:hover {
+    width: 700px;
+    height: 700px;
+
+}
+
+.galeria-paineis {
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    border: 25px solid #e7b64dc4;
+    box-shadow: 5px 10px 10px #14325a54;
+    
+}
+
+.galeria-paineis:hover {
+    width: 700px;
+    height: 700px;
+
+}
+
+.galeria-plantas{
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    border: 25px solid #e7b64dc4;
+    box-shadow: 5px 10px 10px #14325a54;
+}
+
+.galeria-plantas:hover {
+    width: 700px;
+    height: 700px;
+
+}
+
+.botao-escrito{
+    display: block;
+    background-color:#E7B54D;
+    width: 285px;
+    height: 150px;
+    font-size: 45px;
+    font-family: 'Signika', sans-serif;
+    border-radius: 25px;
+    box-shadow: 5px 1px 10px rgba(0, 0, 0, 0.249); 
+    margin-left: 100px;    
+    border: 4px solid #06254e;
+
+}
+
+
+.botao-escrito:hover{
+    background-color:#E7B54D;
+    width: 285px;
+    height: 150px;
+    font-size: 42px;
+    
+    
+    text-decoration: underline; 
+        
+
+}
+
+.rodape {
+    text-align: center;
+    margin-top: 150px;
+    border-top: #F8F8EE;
+    color: #06254e;
+    font-size: 50px;
+    font-family:'Signika', sans-serif;;
+    background-color: #E7B54D;
+}
+
+.rodape > a {
+    color: #06254e;
+    text-decoration: underline;
+}
+
+.rodape > img {
+    width: 30px;
+    height: 30px;
+}
