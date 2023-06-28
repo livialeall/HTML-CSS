@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+  @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
+
+  header {
+    background-color: black;
+    font-family: 'Passion One', cursive;
+    text-align: center;
+    color: #ffffff;
+    padding: 40px;
+  }
+
+  header h1 {
+    margin: 0px;
+
+  }
+
+  header p {
+    margin: 0;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  header a {
+    text-decoration: none;
+    color: #ffffff;
+
+  }
+
+  
+  header a:hover {
+    text-decoration: underline;
+
+  }
+
+main {
+    font-family: 'Sriracha', cursive;
+}
+
+main div {
+    padding-left: 7px;
+    padding: 50px;
+    
+}
+
+
+.estrofe2 {
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset -1px 2px 20px 5px #00000045;
+    background-attachment: fixed;
+    background-position: center top;
+    
+}
+
+.estrofe2 p {
+    background-color: rgba(0, 0, 0, 0.233);
+    color: #ffffff;
+    margin-right: 50%;
+    text-shadow: rgba(0, 0, 0, 0.224) 2px 4px 4px;
+
+}
+
+.estrofe5 {
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset -1px 2px 20px 5px #00000045;
+    background-attachment: fixed;
+    background-position: center top;
+}
+
+.estrofe5 p {
+    background-color: rgba(0, 0, 0, 0.417);
+    color: #ffffff;
+    margin-right: 50%;
+    text-shadow: rgba(0, 0, 0, 0.224) 2px 4px 4px;
+
+}
+
+footer {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#gustavoguanabara {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#gustavoguanabara:hover {
+    text-decoration: underline;
+}
