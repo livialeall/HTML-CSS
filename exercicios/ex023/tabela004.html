@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+         body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        table {
+            width: 90%;
+            border-collapse: collapse;
+            
+            
+        }
+
+        td {
+            border: 2px solid black;
+            padding: 4px;
+            text-align: center; /* alinhamento horizontal */
+            vertical-align: middle;
+        }
+
+        th {
+            border: 2px solid black;
+
+        }
+        caption {
+            font-weight: bold;
+        }
+
+        .cnome {
+            background-color: pink;
+        }
+        .csexo {
+            background-color: lightcoral;
+        }
+        .group {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="group" span="2">
+            
+            
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissao</th>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Auditora</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Auditora</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Auditora</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Auditora</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Auditora</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Auditora</td>
+        </tr>
+
+    </table>
+</body>
+</html>
