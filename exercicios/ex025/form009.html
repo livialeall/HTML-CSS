@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body {
+            font-family: arial;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Exemplo</h1>
+
+    <p>
+        <label for="inum">Número</label>
+        <input type="range" name="num" id="inum" min="0" max="10" value="5" oninput="ival.innerHTML = Number(inum.value)">
+
+        <output id="ival">5</output>
+    </p>
