@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/* Mobile First - estilo para telas pequenas/ celular */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+html {
+    background-color: rgb(229, 161, 227);
+    
+}
+
+header {
+    background-color: rgb(241, 203, 249);
+    width: 100vw;
+    
+  
+   
+}
+
+header h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+#burguer {
+    background-color:rgba(232, 135, 164, 0.507);
+    
+    display: block;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+#burguer:hover {
+    background-color: rgba(255, 255, 255, 0.795);
+
+}
+
+menu {
+    display: none;
+    
+     
+}
+
+menu ul {
+   list-style-type: none;
+}
+
+menu ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: rgba(232, 135, 164, 0.507);
+    text-align: center;
+    border: 1px solid white;
+}
+menu ul li a:hover {
+    background-color:  rgba(255, 255, 255, 0.443);
+    
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.901);
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 5%;
+}
+main h1 {
+    margin-bottom: 10px;
+}
+
+article > p {
+    text-indent: 15px;
+    text-align: justify;
+    
+}
